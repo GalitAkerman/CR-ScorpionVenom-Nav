@@ -1,0 +1,1031 @@
+
+========================================
+MODEL: BgNav1 | Conc 1 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [7.214056e-08,6.455336e-06]
+(score 511.742 & scale 1).
+Hessian positive definite, eigenvalue range [2.459966,6.072043].
+Model rank =  55 / 55 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00 10.89     0.8  <2e-16 ***
+s(Voltaje):TratVeneno  14.00 11.00     0.8  <2e-16 ***
+s(LocalCell)           16.00 13.33      NA      NA    
+s.1(Voltaje)            7.00  6.86     0.8  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: BgNav1 | Conc 1 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-2.806516e-08,7.254863e-09]
+(score 924.7568 & scale 1.732404).
+Hessian positive definite, eigenvalue range [3.615795,254.3641].
+Model rank =  46 / 46 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                         k'  edf k-index p-value    
+s(Voltaje):TratControl 14.0 10.9    0.71  <2e-16 ***
+s(Voltaje):TratVeneno  14.0 10.7    0.71  <2e-16 ***
+s(LocalCell)           16.0 13.1      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: BgNav1 | Conc 1 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-1.170605e-08,2.06709e-09]
+(score -97.88979 & scale 0.02302466).
+Hessian positive definite, eigenvalue range [3.13968,150.3726].
+Model rank =  46 / 46 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00  8.56     0.8  <2e-16 ***
+s(Voltaje):TratVeneno  14.00  8.09     0.8  <2e-16 ***
+s(LocalCell)           16.00 10.54      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: BgNav1 | Conc 1 mM | Var2 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-3.306155e-09,2.118306e-12]
+(score -313.6944 & scale 0.005054308).
+Hessian positive definite, eigenvalue range [4.078237,150.5241].
+Model rank =  46 / 46 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00  9.67    0.77  <2e-16 ***
+s(Voltaje):TratVeneno  14.00  9.51    0.77  <2e-16 ***
+s(LocalCell)           16.00 12.54      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: BgNav1 | Conc 2 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 7 iterations.
+Gradient range [-3.834256e-09,4.886688e-08]
+(score 570.3031 & scale 1).
+Hessian positive definite, eigenvalue range [2.721631,7.370537].
+Model rank =  57 / 57 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00 10.14    0.48  <2e-16 ***
+s(Voltaje):TratVeneno  14.00 10.87    0.48  <2e-16 ***
+s(LocalCell)           18.00 15.65      NA      NA    
+s.1(Voltaje)            7.00  6.93    0.48  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: BgNav1 | Conc 2 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-0.0004110317,0.000201694]
+(score 1051.872 & scale 1.892407).
+Hessian positive definite, eigenvalue range [3.257498,286.3161].
+Model rank =  48 / 48 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00  9.21    0.59  <2e-16 ***
+s(Voltaje):TratVeneno  14.00  9.65    0.59  <2e-16 ***
+s(LocalCell)           18.00 14.57      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: BgNav1 | Conc 2 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-2.71217e-09,1.236907e-09]
+(score -46.99114 & scale 0.03421769).
+Hessian positive definite, eigenvalue range [2.380952,150.268].
+Model rank =  46 / 46 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00  6.64    0.79  <2e-16 ***
+s(Voltaje):TratVeneno  14.00  6.18    0.79  <2e-16 ***
+s(LocalCell)           16.00  9.95      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: BgNav1 | Conc 2 mM | Var2 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 4 iterations.
+Gradient range [-1.526189e-07,9.413171e-08]
+(score -473.1721 & scale 0.001655793).
+Hessian positive definite, eigenvalue range [4.686731,150.621].
+Model rank =  46 / 46 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                         k'  edf k-index p-value    
+s(Voltaje):TratControl 14.0 11.3    0.67  <2e-16 ***
+s(Voltaje):TratVeneno  14.0 11.0    0.67  <2e-16 ***
+s(LocalCell)           16.0 12.4      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.2 | Conc 1 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [1.706993e-09,1.276387e-07]
+(score 57.74903 & scale 1).
+Hessian positive definite, eigenvalue range [1.639663,2.629873].
+Model rank =  45 / 45 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value   
+s(Voltaje):TratControl 14.00  9.15    0.83   0.010 **
+s(Voltaje):TratVeneno  14.00  8.58    0.83   0.010 **
+s(LocalCell)            6.00  3.72      NA      NA   
+s.1(Voltaje)            7.00  6.55    0.83   0.015 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.2 | Conc 1 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-3.184253e-08,2.900151e-08]
+(score 134.3954 & scale 0.1639736).
+Hessian positive definite, eigenvalue range [1.830644,94.31787].
+Model rank =  36 / 36 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00  7.99    0.78   0.005 ** 
+s(Voltaje):TratVeneno  14.00  8.24    0.78  <2e-16 ***
+s(LocalCell)            6.00  3.88      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.2 | Conc 1 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-3.633055e-08,1.759043e-09]
+(score -45.67566 & scale 0.008872919).
+Hessian positive definite, eigenvalue range [0.7845653,36.35642].
+Model rank =  34 / 34 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  6.14    0.91    0.14
+s(Voltaje):TratVeneno  14.00  5.42    0.91    0.17
+s(LocalCell)            4.00  1.81      NA      NA
+
+
+========================================
+MODEL: Nav1.2 | Conc 1 mM | Var2 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-2.019749e-05,3.850543e-05]
+(score -99.37355 & scale 0.001629447).
+Hessian positive definite, eigenvalue range [0.02319361,36.79385].
+Model rank =  34 / 34 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  8.40     1.1    0.79
+s(Voltaje):TratVeneno  14.00  8.18     1.1    0.79
+s(LocalCell)            4.00  0.31      NA      NA
+
+
+========================================
+MODEL: Nav1.2 | Conc 2 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [1.241407e-11,7.961849e-10]
+(score 66.52412 & scale 1).
+Hessian positive definite, eigenvalue range [1.868935,2.912301].
+Model rank =  45 / 45 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  9.32    0.92    0.21
+s(Voltaje):TratVeneno  14.00  9.34    0.92    0.11
+s(LocalCell)            6.00  3.90      NA      NA
+s.1(Voltaje)            7.00  6.62    0.92    0.12
+
+
+========================================
+MODEL: Nav1.2 | Conc 2 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-6.785906e-06,1.602042e-06]
+(score 168.9764 & scale 0.2244872).
+Hessian positive definite, eigenvalue range [1.806829,94.42435].
+Model rank =  36 / 36 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  9.07    1.07    0.83
+s(Voltaje):TratVeneno  14.00  9.65    1.07    0.80
+s(LocalCell)            6.00  3.86      NA      NA
+
+
+========================================
+MODEL: Nav1.2 | Conc 2 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 4 iterations.
+Gradient range [-2.925555e-05,1.24723e-05]
+(score -48.67689 & scale 0.01435516).
+Hessian positive definite, eigenvalue range [1.051889,55.40815].
+Model rank =  36 / 36 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  7.39       1    0.48
+s(Voltaje):TratVeneno  14.00  7.04       1    0.51
+s(LocalCell)            6.00  2.97      NA      NA
+
+
+========================================
+MODEL: Nav1.2 | Conc 2 mM | Var2 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-2.584854e-05,1.5469e-05]
+(score -165.1902 & scale 0.001568886).
+Hessian positive definite, eigenvalue range [1.417638,55.56091].
+Model rank =  36 / 36 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00  8.27     0.7  <2e-16 ***
+s(Voltaje):TratVeneno  14.00  8.17     0.7  <2e-16 ***
+s(LocalCell)            6.00  3.45      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.4 | Conc 1 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-1.63547e-07,2.873208e-05]
+(score -54.06603 & scale 1).
+Hessian positive definite, eigenvalue range [0.9990586,1.957933].
+Model rank =  45 / 45 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value  
+s(Voltaje):TratControl 14.00  7.38    0.86   0.045 *
+s(Voltaje):TratVeneno  14.00  6.11    0.86   0.040 *
+s(LocalCell)            6.00  3.97      NA      NA  
+s.1(Voltaje)            7.00  5.15    0.86   0.025 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.4 | Conc 1 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 7 iterations.
+Gradient range [-9.353016e-10,8.821277e-10]
+(score -51.25134 & scale 0.01902389).
+Hessian positive definite, eigenvalue range [1.852976,78.36148].
+Model rank =  36 / 36 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value  
+s(Voltaje):TratControl 14.00  8.25    0.88   0.045 *
+s(Voltaje):TratVeneno  14.00  7.43    0.88   0.020 *
+s(LocalCell)            6.00  3.90      NA      NA  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.4 | Conc 2 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-1.419047e-10,1.139844e-08]
+(score -176.5154 & scale 1).
+Hessian positive definite, eigenvalue range [1.979098,3.211539].
+Model rank =  48 / 48 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value   
+s(Voltaje):TratControl 14.00  9.63    0.87   0.010 **
+s(Voltaje):TratVeneno  14.00  9.15    0.87   0.030 * 
+s(LocalCell)            9.00  6.72      NA      NA   
+s.1(Voltaje)            7.00  5.42    0.87   0.015 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.4 | Conc 2 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-4.90608e-06,3.982558e-06]
+(score -53.79359 & scale 0.0265657).
+Hessian positive definite, eigenvalue range [2.959349,126.3624].
+Model rank =  39 / 39 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00 10.04    0.78  <2e-16 ***
+s(Voltaje):TratVeneno  14.00  8.25    0.78  <2e-16 ***
+s(LocalCell)            9.00  6.59      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.4 | Conc 2 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-5.225047e-10,-1.425526e-12]
+(score -79.57177 & scale 0.0134323).
+Hessian positive definite, eigenvalue range [1.875076,74.81914].
+Model rank =  39 / 39 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00  6.63    0.75   0.005 ** 
+s(Voltaje):TratVeneno  14.00  5.95    0.75  <2e-16 ***
+s(LocalCell)            9.00  6.02      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.5 | Conc 1 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 11 iterations.
+Gradient range [-3.470117e-05,1.635439e-05]
+(score -129.2514 & scale 1).
+Hessian positive definite, eigenvalue range [3.470598e-05,1.931528].
+Model rank =  43 / 43 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                             k'      edf k-index p-value  
+s(Voltaje):TratControl 1.40e+01 1.16e+01    0.84    0.06 .
+s(Voltaje):TratVeneno  1.40e+01 1.13e+01    0.84    0.04 *
+s(LocalCell)           4.00e+00 2.18e-04      NA      NA  
+s.1(Voltaje)           7.00e+00 4.81e+00    0.84    0.04 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.5 | Conc 1 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-5.034403e-08,4.257343e-08]
+(score 17.23938 & scale 0.03984036).
+Hessian positive definite, eigenvalue range [0.8845741,62.70163].
+Model rank =  34 / 34 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00 10.31    0.93    0.17
+s(Voltaje):TratVeneno  14.00  9.63    0.93    0.18
+s(LocalCell)            4.00  1.90      NA      NA
+
+
+========================================
+MODEL: Nav1.5 | Conc 1 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 14 iterations.
+Gradient range [-3.822745e-06,1.687927e-05]
+(score 12.733 & scale 0.05957474).
+Hessian positive definite, eigenvalue range [3.822846e-06,36.04625].
+Model rank =  34 / 34 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  2.68    0.92    0.19
+s(Voltaje):TratVeneno  14.00  1.00    0.92    0.19
+s(LocalCell)            4.00  1.93      NA      NA
+
+
+========================================
+MODEL: Nav1.5 | Conc 2 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [4.941496e-08,0.0001138764]
+(score 275.6774 & scale 1).
+Hessian positive definite, eigenvalue range [2.823406,6.900118].
+Model rank =  55 / 55 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00 10.40    0.79  <2e-16 ***
+s(Voltaje):TratVeneno  14.00 10.90    0.79  <2e-16 ***
+s(LocalCell)           16.00 13.95      NA      NA    
+s.1(Voltaje)            7.00  6.89    0.79  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.5 | Conc 2 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-0.000329368,0.0001428279]
+(score 763.3181 & scale 0.960724).
+Hessian positive definite, eigenvalue range [3.456391,254.2871].
+Model rank =  46 / 46 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00  8.89     0.4  <2e-16 ***
+s(Voltaje):TratVeneno  14.00  8.71     0.4  <2e-16 ***
+s(LocalCell)           16.00 12.82      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.5 | Conc 2 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-7.843454e-08,4.811941e-08]
+(score -65.65316 & scale 0.02894508).
+Hessian positive definite, eigenvalue range [2.250547,150.363].
+Model rank =  46 / 46 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00  5.59    0.47  <2e-16 ***
+s(Voltaje):TratVeneno  14.00  6.24    0.47  <2e-16 ***
+s(LocalCell)           16.00 12.74      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.5 | Conc 2 mM | Var2 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-1.022249e-05,1.954531e-06]
+(score -220.9209 & scale 0.007982262).
+Hessian positive definite, eigenvalue range [2.113226,131.3515].
+Model rank =  44 / 44 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00  6.05    0.37  <2e-16 ***
+s(Voltaje):TratVeneno  14.00  6.14    0.37  <2e-16 ***
+s(LocalCell)           14.00 11.25      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.6 | Conc 1 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 4 iterations.
+Gradient range [-6.406664e-11,1.515563e-08]
+(score -83.52511 & scale 1).
+Hessian positive definite, eigenvalue range [0.8106988,4.313373].
+Model rank =  43 / 43 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  7.09    0.96    0.29
+s(Voltaje):TratVeneno  14.00  9.81    0.96    0.23
+s(LocalCell)            4.00  1.94      NA      NA
+s.1(Voltaje)            7.00  4.11    0.96    0.30
+
+
+========================================
+MODEL: Nav1.6 | Conc 1 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-6.817264e-05,3.275805e-05]
+(score -85.19763 & scale 0.008637208).
+Hessian positive definite, eigenvalue range [0.8999991,62.46466].
+Model rank =  34 / 34 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  7.68    0.96    0.29
+s(Voltaje):TratVeneno  14.00  8.81    0.96    0.28
+s(LocalCell)            4.00  1.92      NA      NA
+
+
+========================================
+MODEL: Nav1.6 | Conc 1 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 4 iterations.
+Gradient range [-1.475759e-07,1.303236e-09]
+(score -94.28701 & scale 0.002416065).
+Hessian positive definite, eigenvalue range [0.3667277,36.33144].
+Model rank =  34 / 34 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  6.10    0.91    0.15
+s(Voltaje):TratVeneno  14.00  5.24    0.91    0.19
+s(LocalCell)            4.00  1.23      NA      NA
+
+
+========================================
+MODEL: Nav1.6 | Conc 1 mM | Var2 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-3.704875e-08,2.508559e-08]
+(score -54.80526 & scale 0.0002171808).
+eigenvalue range [0,20.10182].
+Model rank =  32 / 32 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                             k'      edf k-index p-value
+s(Voltaje):TratControl 1.40e+01 1.16e+01    1.07    0.65
+s(Voltaje):TratVeneno  1.40e+01 1.00e+01    1.07    0.56
+s(LocalCell)           2.00e+00 2.31e-17      NA      NA
+
+
+========================================
+MODEL: Nav1.6 | Conc 2 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-7.253004e-10,4.790532e-09]
+(score -141.1225 & scale 1).
+Hessian positive definite, eigenvalue range [1.713094,2.946441].
+Model rank =  45 / 45 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00 10.54    1.06    0.71
+s(Voltaje):TratVeneno  14.00  9.66    1.06    0.70
+s(LocalCell)            6.00  3.96      NA      NA
+s.1(Voltaje)            7.00  6.18    1.06    0.79
+
+
+========================================
+MODEL: Nav1.6 | Conc 2 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 7 iterations.
+Gradient range [-2.466717e-06,1.052009e-06]
+(score -56.61644 & scale 0.02078605).
+Hessian positive definite, eigenvalue range [1.620258,94.41974].
+Model rank =  36 / 36 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value  
+s(Voltaje):TratControl 14.00  8.74    0.89   0.045 *
+s(Voltaje):TratVeneno  14.00  9.91    0.89   0.060 .
+s(LocalCell)            6.00  3.65      NA      NA  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.6 | Conc 2 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-9.354864e-10,6.939587e-10]
+(score -120.5288 & scale 0.003488904).
+Hessian positive definite, eigenvalue range [1.136664,55.60773].
+Model rank =  36 / 36 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  9.03    0.89    0.11
+s(Voltaje):TratVeneno  14.00  8.22    0.89    0.12
+s(LocalCell)            6.00  3.09      NA      NA
+
+
+========================================
+MODEL: Nav1.6 | Conc 2 mM | Var2 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-9.352975e-06,8.707595e-06]
+(score -97.2711 & scale 0.006101377).
+Hessian positive definite, eigenvalue range [1.316175,55.26797].
+Model rank =  36 / 36 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  6.61    0.98    0.38
+s(Voltaje):TratVeneno  14.00  4.15    0.98    0.33
+s(LocalCell)            6.00  3.91      NA      NA
+
+
+========================================
+MODEL: Nav1.7 | Conc 1 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 4 iterations.
+Gradient range [-2.62236e-09,9.652217e-09]
+(score -94.64123 & scale 1).
+Hessian positive definite, eigenvalue range [1.485224,2.840934].
+Model rank =  47 / 47 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value  
+s(Voltaje):TratControl 14.00  9.70    0.89   0.030 *
+s(Voltaje):TratVeneno  14.00  7.62    0.89   0.045 *
+s(LocalCell)            8.00  5.87      NA      NA  
+s.1(Voltaje)            7.00  6.37    0.89   0.030 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.7 | Conc 1 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 7 iterations.
+Gradient range [-6.39649e-09,5.831158e-09]
+(score 52.36896 & scale 0.0651613).
+Hessian positive definite, eigenvalue range [2.16969,126.2366].
+Model rank =  38 / 38 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value   
+s(Voltaje):TratControl 14.00  8.36    0.87   0.005 **
+s(Voltaje):TratVeneno  14.00  6.38    0.87   0.015 * 
+s(LocalCell)            8.00  5.83      NA      NA   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.7 | Conc 1 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-3.442073e-06,1.042298e-06]
+(score -161.3914 & scale 0.003690422).
+Hessian positive definite, eigenvalue range [2.51318,74.56291].
+Model rank =  38 / 38 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00  9.96    0.81  <2e-16 ***
+s(Voltaje):TratVeneno  14.00  7.79    0.81   0.025 *  
+s(LocalCell)            8.00  5.76      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.7 | Conc 1 mM | Var2 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 4 iterations.
+Gradient range [-3.053532e-06,1.410657e-06]
+(score -179.382 & scale 0.003547504).
+Hessian positive definite, eigenvalue range [2.017115,74.2738].
+Model rank =  38 / 38 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  6.57    0.96    0.28
+s(Voltaje):TratVeneno  14.00  5.68    0.96    0.23
+s(LocalCell)            8.00  5.07      NA      NA
+
+
+========================================
+MODEL: Nav1.7 | Conc 2 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 7 iterations.
+Gradient range [-3.896551e-09,5.026232e-08]
+(score -573.5464 & scale 1).
+Hessian positive definite, eigenvalue range [2.482647,5.893275].
+Model rank =  55 / 55 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00 13.34    0.87   0.005 ** 
+s(Voltaje):TratVeneno  14.00 12.81    0.87  <2e-16 ***
+s(LocalCell)           16.00 13.07      NA      NA    
+s.1(Voltaje)            7.00  6.61    0.87  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.7 | Conc 2 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 8 iterations.
+Gradient range [-1.269781e-07,5.991492e-08]
+(score -208.1845 & scale 0.01922035).
+Hessian positive definite, eigenvalue range [4.756932,254.4226].
+Model rank =  46 / 46 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                         k'  edf k-index p-value    
+s(Voltaje):TratControl 14.0 13.1    0.85  <2e-16 ***
+s(Voltaje):TratVeneno  14.0 11.6    0.85  <2e-16 ***
+s(LocalCell)           16.0 12.8      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.7 | Conc 2 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-4.196752e-06,1.387001e-06]
+(score -294.9429 & scale 0.005745287).
+Hessian positive definite, eigenvalue range [4.157172,150.5195].
+Model rank =  46 / 46 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value    
+s(Voltaje):TratControl 14.00 10.80    0.79  <2e-16 ***
+s(Voltaje):TratVeneno  14.00  9.78    0.79  <2e-16 ***
+s(LocalCell)           16.00 11.39      NA      NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.7 | Conc 2 mM | Var2 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-0.0003782608,3.965944e-06]
+(score -434.6377 & scale 0.002253596).
+Hessian positive definite, eigenvalue range [3.004518,150.4773].
+Model rank =  46 / 46 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value   
+s(Voltaje):TratControl 14.00  8.41    0.89    0.01 **
+s(Voltaje):TratVeneno  14.00  7.23    0.89    0.04 * 
+s(LocalCell)           16.00 13.52      NA      NA   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+========================================
+MODEL: Nav1.8 | Conc 2 mM | Corriente [gaulss]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 4 iterations.
+Gradient range [9.143797e-13,9.926342e-10]
+(score -28.39254 & scale 1).
+Hessian positive definite, eigenvalue range [0.9771313,2.617538].
+Model rank =  43 / 43 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  9.50    1.01    0.55
+s(Voltaje):TratVeneno  14.00  8.75    1.01    0.55
+s(LocalCell)            4.00  1.98      NA      NA
+s.1(Voltaje)            7.00  4.62    1.01    0.51
+
+
+========================================
+MODEL: Nav1.8 | Conc 2 mM | Corriente [gaussian (emmeans)]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-4.390699e-08,3.969915e-08]
+(score 69.9164 & scale 0.1146427).
+Hessian positive definite, eigenvalue range [0.9196581,62.30241].
+Model rank =  34 / 34 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  6.56    1.04    0.60
+s(Voltaje):TratVeneno  14.00  7.15    1.04    0.67
+s(LocalCell)            4.00  1.94      NA      NA
+
+
+========================================
+MODEL: Nav1.8 | Conc 2 mM | Var1 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 4 iterations.
+Gradient range [-1.660869e-05,6.14931e-06]
+(score -48.13765 & scale 0.008417974).
+Hessian positive definite, eigenvalue range [0.6624958,36.36289].
+Model rank =  34 / 34 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  5.13    0.95    0.32
+s(Voltaje):TratVeneno  14.00  6.43    0.95    0.28
+s(LocalCell)            4.00  1.66      NA      NA
+
+
+========================================
+MODEL: Nav1.8 | Conc 2 mM | Var2 [gaussian]
+========================================
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-3.284564e-08,4.304663e-10]
+(score -111.1027 & scale 0.001208249).
+Hessian positive definite, eigenvalue range [0.8460074,36.63404].
+Model rank =  34 / 34 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                          k'   edf k-index p-value
+s(Voltaje):TratControl 14.00  7.37    0.91    0.24
+s(Voltaje):TratVeneno  14.00  7.42    0.91    0.15
+s(LocalCell)            4.00  1.88      NA      NA
+
